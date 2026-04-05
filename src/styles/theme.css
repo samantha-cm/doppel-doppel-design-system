@@ -1,0 +1,49 @@
+@theme {
+  /* Dart color palette */
+  --color-dart-25: #f9ffe4;
+  --color-dart-50: #f3ffc9;
+  --color-dart-75: #edffad;
+  --color-dart-yellow: #e7ff92;
+  --color-dart-125: #b4c474;
+  --color-dart-150: #818957;
+  --color-dart-175: #4e4f39;
+
+  /* Blue color palette */
+  --color-blue-25: #c6e0fe;
+  --color-blue-50: #8dc1fd;
+  --color-blue-75: #55a3fd;
+  --color-blue: #1c84fc;
+  --color-blue-125: #1c68c4;
+  --color-blue-150: #1c4c8b;
+  --color-blue-175: #1b3053;
+
+  /* Purple color palette */
+  --color-purple-25: #f7f2fd;
+  --color-purple-50: #efe5fc;
+  --color-purple-75: #e6d7fb;
+  --color-purple: #decaf9;
+  --color-purple-125: #ad9cc1;
+  --color-purple-150: #7d6f8a;
+  --color-purple-175: #4c4253;
+
+  /* Orange color palette */
+  --color-orange-25: #ffe6d4;
+  --color-orange-50: #ffcea8;
+  --color-orange-75: #ffb57d;
+  --color-orange: #ff9d52;
+  --color-orange-125: #c67b44;
+  --color-orange-150: #8d5937;
+  --color-orange-175: #543629;
+
+  /* White color palette */
+  --color-white: #ffffff;
+  --color-white-25: #a4a1a4;
+  --color-white-50: #d1d0d1;
+  --color-white-75: #edeced;
+
+  /* Black color palette */
+  --color-black: #1b141b;
+  --color-black-25: #767276;
+  --color-black-50: #494349;
+  --color-black-75: #2d272d;
+}
