@@ -1,0 +1,77 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Foundations/Breakpoints" />
+
+# Breakpoints
+
+Doppel's breakpoints establish the structural backbone of responsive design, ensuring the brand experience adapts fluidly and consistently across every screen size.
+
+## Description
+
+Breakpoints define the precise thresholds at which Doppel's layout responds and reorganizes to fit different screen sizes and contexts. These responsive design tokens give designers and developers a shared framework to build interfaces that transition seamlessly — from mobile phones to large desktop displays — preserving visual harmony and usability at every scale.
+
+## Breakpoint Tokens
+
+<table style={{ width: "100%" }}>
+  <thead>
+    <tr style={{ backgroundColor: "#f5f5f5", fontWeight: "bold" }}>
+      <th>Token</th>
+      <th>Range (px)</th>
+      <th>Typical Devices</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>-</td>
+      <td>0 - 479px</td>
+      <td>Small mobile phones</td>
+    </tr>
+    <tr>
+      <td>sm</td>
+      <td>480 - 767px</td>
+      <td>Mobile phones, Small tablets</td>
+    </tr>
+    <tr>
+      <td>md</td>
+      <td>768 - 1023px</td>
+      <td>Tablets, Small laptops</td>
+    </tr>
+    <tr>
+      <td>lg</td>
+      <td>1024 - 1439px</td>
+      <td>Laptops, Small desktops</td>
+    </tr>
+    <tr>
+      <td>xl</td>
+      <td>1440 - 2439px</td>
+      <td>Desktops, Large monitors</td>
+    </tr>
+    <tr>
+      <td>2xl</td>
+      <td>2440px+</td>
+      <td>Large desktop screens</td>
+    </tr>
+  </tbody>
+</table>
+
+## Testing Sizes
+
+Doppel's quality assurance (QA) tests are conducted at the following key screen widths to ensure a consistent and polished experience across all breakpoints:
+
+### Mobile
+
+- 320px (small mobile)
+- 375px (iPhone SE/12/13)
+- 414px (iPhone Plus)
+
+### Tablet
+
+- 768px (iPad Mini)
+- 834px (iPad Air/Pro)
+
+### Desktop
+
+- 1024px (small desktop)
+- 1280px (standard desktop)
+- 1440px (large desktop)
+- 1920px (full HD)

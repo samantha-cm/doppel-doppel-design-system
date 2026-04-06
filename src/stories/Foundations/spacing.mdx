@@ -1,0 +1,194 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Foundations/Spacing" />
+
+# Spacing
+
+Doppel's spacing system is designed to bring consistency and flexibility to every component and layout. Intentional spacing establishes predictable structures, reinforces visual rhythm, and creates a clear hierarchy — ensuring a cohesive and balanced experience across all brand touchpoints.
+
+## Base
+
+Doppel's spacing system uses a base unit of **8px** (0.5rem). This ensures all spacing values are multiples of 8, creating visual harmony and alignment across the design system.
+
+## Spacing Tokens
+
+<table style={{ width: "100%" }}>
+  <thead>
+    <tr style={{ backgroundColor: "#f5f5f5", fontWeight: "bold" }}>
+      <th>Token</th>
+      <th>Pixel Value</th>
+      <th>Visual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>space-0</td>
+      <td>0px</td>
+      <td>
+        <div
+          style={{ width: "0px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-0.5</td>
+      <td>4px</td>
+      <td>
+        <div
+          style={{ width: "4px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-1</td>
+      <td>8px</td>
+      <td>
+        <div
+          style={{ width: "8px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-1.5</td>
+      <td>12px</td>
+      <td>
+        <div
+          style={{ width: "12px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-2</td>
+      <td>16px</td>
+      <td>
+        <div
+          style={{ width: "16px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-2.5</td>
+      <td>20px</td>
+      <td>
+        <div
+          style={{ width: "20px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-3</td>
+      <td>24px</td>
+      <td>
+        <div
+          style={{ width: "24px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-3.5</td>
+      <td>28px</td>
+      <td>
+        <div
+          style={{ width: "28px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-4</td>
+      <td>32px</td>
+      <td>
+        <div
+          style={{ width: "32px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-5</td>
+      <td>40px</td>
+      <td>
+        <div
+          style={{ width: "40px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-6</td>
+      <td>48px</td>
+      <td>
+        <div
+          style={{ width: "48px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-7</td>
+      <td>56px</td>
+      <td>
+        <div
+          style={{ width: "56px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-8</td>
+      <td>64px</td>
+      <td>
+        <div
+          style={{ width: "64px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-9</td>
+      <td>72px</td>
+      <td>
+        <div
+          style={{ width: "72px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-10</td>
+      <td>80px</td>
+      <td>
+        <div
+          style={{ width: "80px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-11</td>
+      <td>88px</td>
+      <td>
+        <div
+          style={{ width: "88px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+    <tr>
+      <td>space-12</td>
+      <td>96px</td>
+      <td>
+        <div
+          style={{ width: "96px", height: "16px", backgroundColor: "#ff9d52" }}
+        ></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Usage
+
+Spacing tokens can be applied using Tailwind's utility classes:
+
+- **Padding**: `p-*`, `px-*`, `py-*`, `pt-*`, `pr-*`, `pb-*`, `pl-*`
+- **Margin**: `m-*`, `mx-*`, `my-*`, `mt-*`, `mr-*`, `mb-*`, `ml-*`
+- **Gap**: `gap-*`, `gap-x-*`, `gap-y-*`
+
+Example:
+
+```jsx
+<div className="p-4 gap-4">
+  <div className="m-2">Content</div>
+</div>
+```

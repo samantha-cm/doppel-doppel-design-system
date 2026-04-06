@@ -1,4 +1,6 @@
 @theme {
+  /* ----Color Palettes tokens ---- */
+
   /* Dart color palette */
   --color-dart-25: #f9ffe4;
   --color-dart-50: #f3ffc9;
@@ -46,4 +48,19 @@
   --color-black-25: #767276;
   --color-black-50: #494349;
   --color-black-75: #2d272d;
+
+  /* ---Responsive ---- */
+
+  /* Breakpoints */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-2xl: 2440px;
+
+  /* ---Spacing ---- */
+
+  /* base 8px */
+  --spacing: 0.5rem;
 }
