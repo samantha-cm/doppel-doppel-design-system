@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer components {
+  /* Base button styles */
+  .btn {
+    @apply inline-flex items-center justify-center font-medium rounded-lg cursor-pointer transition-colors duration-150;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+    @apply py-2 px-4;
+  }
+
+  /* Variants */
+
+  .btn[data-variant="primary"] {
+    background-color: var(--color-dart-yellow);
+    color: var(--color-black);
+  }
+
+  .btn[data-variant="secondary"] {
+    background-color: var(--color-black-25);
+    color: var(--color-white);
+  }
+
+  .btn[data-variant="tertiary"] {
+    background-color: transparent;
+    color: var(--color-white-25);
+    border: 1px solid var(--color-white-50);
+  }
+}
